@@ -1,11 +1,12 @@
-.App .col,
-.col-3,
-.col-2 {
+.App .col-12,
+.col-md-3,
+.col-md-2,
+.col-md {
   border-radius: 6px;
   margin: 5px;
   border: solid 1px black;
 }
 
-.App .col-3 {
+.App .col-md-3 {
   padding: 0;
 }

@@ -1,6 +1,7 @@
 import "./App.css";
 import Photo from "./Photo";
 import About from "./About";
+import Skills from "./Skills";
 
 function App() {
   return (
@@ -10,16 +11,18 @@ function App() {
           <h1>Marta Nogueira</h1>
         </header>
         <div className="row">
-          <div className="col-3">
+          <div className="col-12 col-md-3">
             <Photo />
           </div>
-          <div className="col">
+          <div className="col-12 col-md">
             <About />
           </div>
         </div>
         <div className="row">
-          <div className="col">Projects</div>
-          <div className="col-2">Skills</div>
+          <div className="col-12 col-md">Projects</div>
+          <div className="col-12 col-md-2">
+            <Skills />
+          </div>
         </div>
         <footer>Contacts</footer>
       </div>
