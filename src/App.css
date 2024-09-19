@@ -1,7 +1,11 @@
 .App .col,
 .col-3,
-.col-4 {
+.col-2 {
   border-radius: 6px;
   margin: 5px;
-  background: aqua;
+  border: solid 1px black;
+}
+
+.App .col-3 {
+  padding: 0;
 }
