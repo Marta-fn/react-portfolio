@@ -2,6 +2,7 @@ import "./App.css";
 import Photo from "./Photo";
 import About from "./About";
 import Skills from "./Skills";
+import Projects from "./Projects";
 
 function App() {
   return (
@@ -19,10 +20,10 @@ function App() {
           </div>
         </div>
         <div className="row">
-          <div className="col-12 col-md">Projects</div>
-          <div className="col-12 col-md-2">
-            <Skills />
-          </div>
+          <Skills />
+        </div>
+        <div className="row">
+          <Projects />
         </div>
         <footer>Contacts</footer>
       </div>

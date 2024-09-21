@@ -13,30 +13,12 @@ import {
 export default function Skills() {
   return (
     <div className="Skills">
-      <div className="row">
-        <div className="col">
-          <FontAwesomeIcon icon={faHtml5} className="icons" />
-        </div>
-        <div className="col">
-          <FontAwesomeIcon icon={faCss3Alt} className="icons" />
-        </div>
-      </div>
-      <div className="row">
-        <div className="col">
-          <FontAwesomeIcon icon={faJs} className="icons" />
-        </div>
-        <div className="col">
-          <FontAwesomeIcon icon={faReact} className="icons" />
-        </div>
-      </div>
-      <div className="row">
-        <div className="col">
-          <FontAwesomeIcon icon={faPython} className="icons" />
-        </div>
-        <div className="col">
-          <FontAwesomeIcon icon={faGithub} className="icons" />
-        </div>
-      </div>
+      <FontAwesomeIcon icon={faHtml5} className="icons" />
+      <FontAwesomeIcon icon={faCss3Alt} className="icons" />
+      <FontAwesomeIcon icon={faJs} className="icons" />
+      <FontAwesomeIcon icon={faReact} className="icons" />
+      <FontAwesomeIcon icon={faPython} className="icons" />
+      <FontAwesomeIcon icon={faGithub} className="icons" />
     </div>
   );
 }

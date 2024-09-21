@@ -1,13 +1,6 @@
 .Skills {
   padding: 5px;
 }
-.Skills .col {
-  margin: 5px;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .Skills .icons {
   font-size: 50px;
