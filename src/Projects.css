@@ -3,6 +3,11 @@
   flex-wrap: wrap;
 }
 
-.Projects img {
-  object-fit: cover;
+.Projects .row {
+  margin-bottom: 24px;
+}
+
+.Projects .col-sm-4 {
+  padding-right: 6;
+  padding-left: 6;
 }
