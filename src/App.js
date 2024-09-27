@@ -11,16 +11,17 @@ function App() {
       <div className="container">
         <header>
           <h1>Marta Nogueira</h1>
+          <h2>Front-end Developer</h2>
+          <div className="row">
+            <div className="col-12 col-md-3">
+              <Photo />
+            </div>
+            <div className="col-12 col-md about">
+              <About />
+            </div>
+          </div>
         </header>
-        <div className="row">
-          <div className="col-12 col-md-3">
-            <Photo />
-          </div>
-          <div className="col-12 col-md about">
-            <About />
-          </div>
-        </div>
-        <div className="row">
+        <div className="row skills">
           <Skills />
         </div>
         <div className="row">

@@ -1,10 +1,37 @@
+:root {
+  --secondary-background-color: #2c2f48;
+  --soft-blue-color: #a8dadc;
+  --coral-color: #ff6b6b;
+  --muted-yellow-color: #ffd166;
+  --secondary-text-color: #f8f8f8;
+}
+
+.App {
+  background-color: #1d1f33;
+  color: #e5e5e5;
+}
+
+.App header {
+  padding-top: 40px;
+  margin-bottom: 40px;
+}
+
+.App h1,
+h2 {
+  text-align: center;
+  color: var(--muted-yellow-color);
+}
+
+.App h1 {
+  font-size: 48px;
+}
+
 .App .col-12,
 .col-md-3,
 .col-md-2,
 .col-md {
   border-radius: 6px;
   margin: 5px;
-  background-color: antiquewhite;
 }
 
 .App .col-md-3 {
@@ -15,4 +42,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.App .skills {
+  background-color: var(--secondary-background-color);
+  border-radius: 6px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }

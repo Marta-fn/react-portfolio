@@ -4,7 +4,7 @@ import "./About.css";
 export default function About() {
   return (
     <div className="About">
-      <h2>About me</h2>
+      <h3>About me</h3>
       <p>
         Junior Front-end Developer with a passion for creating interactive,
         user-focused web applications. Certified by SheCodes, with hands-on

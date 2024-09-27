@@ -4,6 +4,12 @@
 }
 
 .Skills .icons {
-  margin: 0 12px 0 12px;
+  margin: 0 24px 0 24px;
   font-size: 50px;
+  color: var(--muted-yellow-color);
+}
+
+.Skills .icons:hover {
+  transform: scale(1.5);
+  color: var(--coral-color);
 }
