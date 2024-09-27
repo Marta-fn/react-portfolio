@@ -1,12 +1,12 @@
 .ProjectButtons a i {
   display: inline-block;
-  color: black;
+  color: var(--soft-blue-color);
   font-size: 30px;
-  margin-left: 6px;
-  margin-right: 6px;
+  margin-left: 12px;
+  margin-right: 12px;
 }
 
 .ProjectButtons a:hover i {
-  color: grey;
+  color: var(--coral-color);
   transform: scale(1.5);
 }

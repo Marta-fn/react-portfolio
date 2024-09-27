@@ -3,6 +3,17 @@
   flex-wrap: wrap;
 }
 
+.Projects .card {
+  background-color: #333346;
+  padding: 6px 6px 0 6px;
+  box-shadow: 8px 8px rgba(0, 0, 0, 0.2);
+}
+
+.Projects .card:hover {
+  border: 2px solid var(--soft-blue-color);
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+}
+
 .Projects .row {
   margin-bottom: 24px;
 }
@@ -10,4 +21,16 @@
 .Projects .col-sm-4 {
   padding-right: 6;
   padding-left: 6;
+}
+
+.Projects img {
+  filter: brightness(90%);
+}
+
+.Projects img:hover {
+  filter: brightness(1);
+}
+
+.Projects h5 {
+  color: #f8f8f8;
 }
