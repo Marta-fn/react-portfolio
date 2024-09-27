@@ -16,7 +16,7 @@ function App() {
           <div className="col-12 col-md-3">
             <Photo />
           </div>
-          <div className="col-12 col-md">
+          <div className="col-12 col-md about">
             <About />
           </div>
         </div>

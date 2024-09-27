@@ -1,5 +1,6 @@
 import React from "react";
 import "bootstrap-icons/font/bootstrap-icons.css";
+import "./Contacts.css";
 
 export default function Contacts() {
   return (

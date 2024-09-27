@@ -4,9 +4,15 @@
 .col-md {
   border-radius: 6px;
   margin: 5px;
-  border: solid 1px black;
+  background-color: antiquewhite;
 }
 
 .App .col-md-3 {
   padding: 0;
+}
+
+.App .about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

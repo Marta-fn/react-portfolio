@@ -1,7 +1,9 @@
 .Skills {
+  text-align: center;
   padding: 5px;
 }
 
 .Skills .icons {
+  margin: 0 12px 0 12px;
   font-size: 50px;
 }

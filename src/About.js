@@ -1,26 +1,20 @@
 import React from "react";
+import "./About.css";
 
 export default function About() {
   return (
     <div className="About">
       <h2>About me</h2>
       <p>
-        A junior Front-end Developer certified by SheCodes, a certified
-        Professional Scrum Master (PSMI), and a former Nurse based in Viseu,
-        Portugal.
-      </p>
-      <p>
-        As a nurse I've developed a robust skill set that includes effective
-        communication, teamwork, and the ability to thrive in high-pressure
-        environments. These skills can be seamlessly transitioned into a IT
-        career, where I bring a unique perspective and problem-solving
-        abilities.
-      </p>
-      <p>
-        My journey has taken me from healthcare to the dynamic world of IT and I
-        am eager to connect and explore opportunities where I can leverage my
-        healthcare background and IT skills to contribute to innovative and
-        impactful projects.
+        Junior Front-end Developer with a passion for creating interactive,
+        user-focused web applications. Certified by SheCodes, with hands-on
+        experience in HTML, CSS, JavaScript, and React. <br />
+        As a former nurse, I bring exceptional problem-solving abilities,
+        adaptability, and a collaborative mindset — skills that seamlessly
+        transfer into software development and agile environments. <br />
+        Currently, I am committed to continuous learning and eager to apply my
+        technical skills in an innovative and creative environment as a
+        front-end developer.
       </p>
     </div>
   );
