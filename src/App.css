@@ -55,3 +55,9 @@ h2 {
   padding-bottom: 60px;
   margin-bottom: 60px;
 }
+
+.App footer {
+  background-color: var(--secondary-background-color);
+  padding: 60px 0 60px 0;
+  margin-top: 30px;
+}
