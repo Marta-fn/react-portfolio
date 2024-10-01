@@ -5,6 +5,7 @@ import "./Contacts.css";
 export default function Contacts() {
   return (
     <div className="Contacts">
+      <h3>Let's get in touch:</h3>
       <div className="linkedIn">
         <i class="bi bi-linkedin"></i>
         <a
