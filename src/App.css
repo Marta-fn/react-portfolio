@@ -32,14 +32,6 @@ h2 {
   text-shadow: 0px 2px 4px var(--muted-yellow-color);
 }
 
-.App .col-12,
-.col-md-3,
-.col-md-2,
-.col-md {
-  border-radius: 6px;
-  margin: 5px;
-}
-
 .App .col-md-3 {
   padding: 0;
 }

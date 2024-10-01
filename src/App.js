@@ -13,7 +13,7 @@ function App() {
           <h1>Marta Nogueira</h1>
           <h2>Front-end Developer</h2>
           <div className="row">
-            <div className="col-12 col-md-3">
+            <div className="col-12 col-md-3 d-flex align-items-center justify-content-center">
               <Photo />
             </div>
             <div className="col-12 col-md about">

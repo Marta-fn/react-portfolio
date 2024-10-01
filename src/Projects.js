@@ -123,7 +123,7 @@ export default function Projects() {
       {!showMore && (
         <div className="showMoreButton">
           <button className="btn" onClick={handleShowMore}>
-            Show More Projects
+            Show More
           </button>
         </div>
       )}
