@@ -13,3 +13,10 @@
   transform: scale(1.5);
   color: var(--coral-color);
 }
+
+@media (max-width: 768px) {
+  .Skills .icons {
+    margin: 24px 12px 0 12px;
+    font-size: 42px;
+  }
+}

@@ -57,3 +57,9 @@
   background-color: var(--muted-yellow-color);
   color: #1d1f33;
 }
+
+@media (max-width: 768px) {
+  .Projects .cardSpacing {
+    margin-bottom: 16px;
+  }
+}

@@ -8,3 +8,9 @@
   line-height: 2;
   margin: 0 24px 0 24px;
 }
+
+@media (max-width: 768px) {
+  .About p {
+    font-size: 14px;
+  }
+}

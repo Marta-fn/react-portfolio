@@ -33,7 +33,7 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4 cardSpacing">
           <div class="card w-100 text-center">
             <img
               src={dictionary}
@@ -76,7 +76,7 @@ export default function Projects() {
                 </div>
               </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 cardSpacing">
               <div class="card w-100 text-center">
                 <img
                   src={rockPaperScissor}
