@@ -23,11 +23,6 @@
   margin-bottom: 24px;
 }
 
-.Projects .col-sm-4 {
-  padding-right: 6;
-  padding-left: 6;
-}
-
 .Projects img {
   filter: brightness(90%);
 }

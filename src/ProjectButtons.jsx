@@ -10,16 +10,18 @@ export default function ProjectButtons(props) {
     rockPaperScissor: "https://github.com/Marta-fn/rock-paper-scissors",
     reactWeatherApp: "https://github.com/Marta-fn/react-weather-app",
     dictionary: "https://github.com/Marta-fn/react-dictionary-project",
+    pomodoroTimer: "https://github.com/Marta-fn/pomodoro-timer",
+    pawfectMatch: "https://github.com/Marta-fn/most-loved-pet",
   };
 
   const websiteMap = {
     weatherApp: "https://marta-meteorology-app.netlify.app/",
     worldClock: "https://martafn-world-clock.netlify.app/",
-    sheCodesChallenge:
-      "https://www.shecodes.io/contests/binge-worthy-tv-show/contest_entries/marta-nogueira-portuguese/preview",
     quoteGenerator: "https://martafn-quote-generator.netlify.app/",
     reactWeatherApp: "https://martafn-react-weather-app.netlify.app/",
     dictionary: "https://martafn-dictionary-app.netlify.app/",
+    pomodoroTimer: "https://t-pomodoro.netlify.app/",
+    pawfectMatch: "https://pawfectmatching.netlify.app/",
   };
 
   return (
