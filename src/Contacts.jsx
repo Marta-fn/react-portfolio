@@ -9,7 +9,7 @@ export default function Contacts() {
       <div className="linkedIn">
         <i class="bi bi-linkedin"></i>
         <a
-          href="linkedin.com/in/martarfnogueira/"
+          href="https://www.linkedin.com/in/martarfnogueira/"
           target="_blank"
           rel="noopener noreferrer"
         >
